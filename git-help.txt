@@ -1,0 +1,10 @@
+# git init  # only once
+l -tr
+git status
+git add *
+git status
+git commit -m "mkusb 25.1.1"   ##### Modify this line #####
+gpg -d ../token.gpg            ##### show token (to be used instead of simple password)
+git push
+git pull  # to get files from github to my local directory (will ask for text)
+git push
